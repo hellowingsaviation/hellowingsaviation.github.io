@@ -48,6 +48,9 @@
 ===========================*/
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700");
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -3996,4 +3999,7 @@ p.form-message.error {
 
 #logo-footer {
   width: 60%;
+}
+#slider-part {
+  height: 75vh;
 }
